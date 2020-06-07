@@ -33,6 +33,8 @@ var maillink = "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=",
     mailsubject = "&subject=" + text_mailsubject,
     maillink1 = "",
     maillink2 = "&body=" + text_mailbody;
+if (typeof document.getElementById("apiliasi").value != "undefined") { 
+        phone = document.getElementById("apiliasi").value;
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     var walink = "whatsapp://send",
         maillink = "mailto:",
