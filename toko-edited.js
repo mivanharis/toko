@@ -33,8 +33,7 @@ var maillink = "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=",
     mailsubject = "&subject=" + text_mailsubject,
     maillink1 = "",
     maillink2 = "&body=" + text_mailbody;
-if (typeof document.getElementById("apiliasi").value != "undefined") { 
-        phone = document.getElementById("apiliasi").value;}
+
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     var walink = "whatsapp://send",
         maillink = "mailto:",
@@ -42,6 +41,8 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 }
 $(document).on("click", ".captchaid", function () {
     var _0x12b8x10 = document.getElementById("alamat");
+    if (typeof document.getElementById("apiliasi").value !== "undefined") { 
+        phone = document.getElementById("apiliasi").value;}
     if ("" != _0x12b8x10.value) {
         var _0x12b8x11 = $(".harga-s b").text();
         var _0x12b8x12 = $("#title").text(),
