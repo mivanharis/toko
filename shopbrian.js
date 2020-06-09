@@ -41,7 +41,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 $(document).on("click", ".captchaid", function () {
     if (typeof document.getElementById("apiliasi").innerHTML !== "undefined") { 
         phone = document.getElementById("apiliasi").innerHTML;
-    }
+    } else {phone = phone;}
     var _0x12b8x10 = document.getElementById("alamat");
     if ("" != _0x12b8x10.value) {
         var _0x12b8x11 = $(".harga-s b").text();
