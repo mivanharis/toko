@@ -39,7 +39,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
         maillink1 = "?cc=" + text_email + "&bcc=" + text_email;
 }
 $(document).on("click", ".captchaid", function () {
-    phone document.getElementById("apiliasi").innerHTML;
+    phone = document.getElementById("apiliasi").innerHTML;
     if (phone == "") {phone = text_phone}
     var _0x12b8x10 = document.getElementById("alamat");
     if ("" != _0x12b8x10.value) {
