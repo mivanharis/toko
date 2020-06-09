@@ -39,7 +39,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
         maillink1 = "?cc=" + text_email + "&bcc=" + text_email;
 }
 $(document).on("click", ".captchaid", function () {
-    if (typeof document.getElementById("apiliasi").innerHTML !== "undefined") { 
+    if (typeof document.getElementById("apiliasi").innerHTML !== null) { 
         phone = document.getElementById("apiliasi").innerHTML;
     } else {phone = phone;}
     var _0x12b8x10 = document.getElementById("alamat");
