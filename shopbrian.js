@@ -1460,7 +1460,7 @@ function getDocHeight(_0x2eefxc) {
 
 function setIframeHeight(_0x2eefx11) {
     var _0x2eefx12 = document[_0x4a98[6]](_0x2eefx11);
-    var _0x2eefxc = document.getElementById(_0x4a98[44]).contentDocument ? document.getElementById(_0x4a98[44]).contentWindow : _0x2eefx12[_0x4a98[37]][_0x4a98[36]];
+    var _0x2eefxc = document.getElementById(_0x4a98[44]).contentDocument ? document.getElementById(_0x4a98[44]).contentDocument : _0x2eefx12[_0x4a98[37]][_0x4a98[36]];
     _0x2eefx12[_0x4a98[4]][_0x4a98[38]] = _0x4a98[39];
     _0x2eefx12[_0x4a98[4]][_0x4a98[40]] = _0x4a98[41];
     _0x2eefx12[_0x4a98[4]][_0x4a98[40]] = getDocHeight(_0x2eefxc) + 4 + _0x4a98[42];
